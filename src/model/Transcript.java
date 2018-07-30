@@ -3,6 +3,9 @@ package model;
 public class Transcript {
 
 
+    public Transcript(String StudentName, int ID) {
+    }
+
     //TODO: Design specification for this method
     //REQUIRES: The course is already part of the list of courses
     //           the grade should be between 0.0 and 4.0, and/or the course should not be null
@@ -30,5 +33,16 @@ public class Transcript {
     //EFFECTS: calculate the GPA based on the grades
     public double getGPA(){ return 0.0; }
 
+    //EFFECTS: return all the course name
+    public String getAllCourseNames(){ return "Math"; }
 
+    //EFFECTS: return course grade
+    public double getCourseGrade(){ return 4; }
+
+    //EFFECTS: return student's ID
+    public int getStudentID(){ return 123; }
+
+    public String getStudentName() {
+        return "Nobody";
+    }
 }
